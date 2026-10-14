@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fresh kebabs, grilled to order. Visit us for wraps, plates, and more.">
+  <title>Flame Kebab | Fresh Off the Grill</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">🔥 Fresh off the grill · Made to order · Big flavour, no fuss</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Flame Kebab home"><span class="brand-mark">🔥</span> FLAME KEBAB</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰ <span class="sr-only">Toggle navigation</span></button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#menu">Menu</a><a href="#about">Our story</a><a href="#visit">Find us</a>
+      <a class="nav-cta" href="#visit">Order / Visit</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">★ Your neighbourhood kebab spot</span>
+        <h1>Real food.<br><span>Open fire.</span><br>Big flavour.</h1>
+        <p>Juicy grilled kebabs, fresh salads, warm bread and sauces made for dipping. Your new favourite meal is just around the corner.</p>
+        <div class="hero-actions">
+          <a class="button" href="#menu">Explore the menu <span aria-hidden="true">&nbsp;→</span></a>
+          <a class="button secondary" href="#visit">Opening hours</a>
+        </div>
+        <div class="hero-note"><span class="stars">★★★★★</span> Made fresh, served with a smile.</div>
+      </div>
+      <div class="hero-photo">
+        <img src="https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?auto=format&fit=crop&w=1200&q=85" alt="Freshly grilled food ready to serve">
+        <div class="photo-label"><strong>Hot. Fresh. Delicious.</strong><span>Every kebab, made to order.</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div><span class="eyebrow">Made for hungry people</span><h2>Our favourites</h2></div>
+          <p>Simple ingredients, generous portions and flavours that hit the spot. Here are a few crowd-pleasers.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card"><div class="food-emoji" aria-hidden="true">🌯</div><h3>Classic Kebab Wrap</h3><p>Grilled meat, crisp salad and our signature garlic sauce in warm flatbread.</p><div class="price-row"><span>Classic favourite</span><span class="price">from 22 zł</span></div></article>
+          <article class="menu-card"><div class="food-emoji" aria-hidden="true">🥙</div><h3>Kebab on a Plate</h3><p>Freshly grilled kebab with golden fries, crunchy salad and your choice of sauce.</p><div class="price-row"><span>Hearty &amp; satisfying</span><span class="price">from 29 zł</span></div></article>
+          <article class="menu-card"><div class="food-emoji" aria-hidden="true">🥗</div><h3>Fresh Veggie Box</h3><p>A colourful mix of fresh vegetables, warm bread and delicious sauces.</p><div class="price-row"><span>Fresh &amp; full of flavour</span><span class="price">from 19 zł</span></div></article>
+        </div>
+        <p class="menu-hint">Sample menu and prices — update these to match your real menu.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-inner about-layout">
+        <div class="about-badge"><div class="big" aria-hidden="true">🔥</div><h3>Grilled with care</h3><p>Good food starts with good ingredients and a little fire.</p></div>
+        <div class="about-copy"><span class="eyebrow">A little about us</span><h2>Good food brings people together.</h2><p>At Flame Kebab, we keep it simple: fresh ingredients, generous portions and food prepared when you order. Whether it's a quick lunch, a late-night bite or dinner with friends, we've got something tasty waiting for you.</p><a class="button" href="#visit">Come say hello</a></div>
+      </div>
+    </section>
+
+    <section class="section" id="visit">
+      <div class="section-inner">
+        <div class="section-heading"><div><span class="eyebrow">Come hungry</span><h2>Find your new favourite.</h2></div><p>Drop by for takeaway or get in touch to ask about orders.</p></div>
+        <div class="visit-grid">
+          <div class="visit-card"><h3>📍 Visit us</h3><p><strong>Flame Kebab</strong></p><p>YOUR STREET ADDRESS<br>YOUR CITY, POSTCODE</p><p><a href="https://maps.google.com/" target="_blank" rel="noopener noreferrer">Open map ↗</a></p></div>
+          <div class="visit-card"><h3>🕒 Opening hours &amp; contact</h3><p>Monday – Thursday: 11:00 – 22:00</p><p>Friday – Sunday: 11:00 – 00:00</p><p>Phone: <a href="tel:+4856789">+48 456 789</a></p><p class="call-row"><a class="button" href="tel:+48456789">Call to order</a></p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="footer-inner"><span><strong>🔥 FLAME KEBAB</strong> · Fresh off the grill.</span><span>© <span id="year"></span> Flame Kebab. Made with flavour.</span></div></footer>
+</body>
+</html>
